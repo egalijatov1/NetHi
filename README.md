@@ -45,3 +45,10 @@ VISUALIZATION
 Architecture of the solution resembles MVC architecture in a following way:
 ![image](https://user-images.githubusercontent.com/88715320/155353691-458fccfd-1f4f-44d8-a2a8-4f656bd3dfe8.png)
 
+# Usage
+1. Upload a dataset (either network or hierarchical data)
+2. Select the type of clustering
+3. Select attributes you want to use
+4. Click on "CLUSTER" button
+5. Click on "CREATE VISUALIZATION"
+(6. Click on "EXPAND GRAPH" if you want to see the whole graph)
