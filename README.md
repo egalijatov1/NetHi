@@ -26,20 +26,20 @@ There are three parts of the application:
 
 # Methods
 NETWORKS
-▪ [Louvain community detection](https://python-louvain.readthedocs.io/en/latest/api.html)
-▪ [Spring layout coordinates computation and translation](https://networkx.github.io/documentation/networkx-1.9/reference/generated/networkx.drawing.layout.spring_layout.html)
-▪ Graph construction (community nodes, virtual community nodes connected to all community nodes)
+- [Louvain community detection](https://python-louvain.readthedocs.io/en/latest/api.html)
+- [Spring layout coordinates computation and translation](https://networkx.github.io/documentation/networkx-1.9/reference/generated/networkx.drawing.layout.spring_layout.html)
+- Graph construction (community nodes, virtual community nodes connected to all community nodes)
 
 HIERARCHIES
-▪ [Agglomerative clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
-▪ Creating hierarchical structure
-▪ Graph construction (adding sub-cluster nodes and connecting them to the leaf nodes)
+- [Agglomerative clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
+- Creating hierarchical structure
+- Graph construction (adding sub-cluster nodes and connecting them to the leaf nodes)
 
 VISUALIZATION
-▪ [Dash Cytoscape](https://dash.plotly.com/cytoscape)
-▪ Coloring with [matplotlib.cm5](https://matplotlib.org/api/cm_api.html)
-▪ Expanding and collapsing
-▪ Node information presentation on hover
+- [Dash Cytoscape](https://dash.plotly.com/cytoscape)
+- Coloring with [matplotlib.cm5](https://matplotlib.org/api/cm_api.html)
+- Expanding and collapsing
+- Node information presentation on hover
 
 # Architecture
 Architecture of the solution resembles MVC architecture in a following way:
